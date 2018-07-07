@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rock Paper Scissors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="RPS.css" />
+    
+</head>
+<body>
+    <div id="container">
+            <div id="header">
+                <h1>It's time to play Rock, paper, scissors!</h1>
+            </div>
+            
+            <div id="weaponCache">
+                <h2>Please, choose your weapon</h2>
+                <button id="rock" onclick="choice('rock')">Rock</button>
+                <button id="paper" onclick="choice('paper')">Paper</button>
+                <button id="scissors"   onclick="choice('scissors')">Scissors</button>
+            </div>
+            
+            <div id="score">
+                <p id="rounds">Round: </p>
+                <p id="pWin">Player Wins: </p>
+                <p id="cWin">Computer Wins: </p>
+                <p id="winner">Who will victory go to?</p>
+            </div>
+            </div>
+            
+            
+            <div id="loadout">
+            <p id ="choosing"></p>
+            </div>    
+    <script src="RPS.js"></script> 
+</body>
+</html>

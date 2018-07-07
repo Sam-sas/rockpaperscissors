@@ -1,0 +1,46 @@
+body {
+    width: 1000px;
+    background-color: #97BB5B;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 35px;
+  }
+  
+  #container {
+    position: absolute;
+    padding: 260px;
+    left: 22%;
+    margin: 0 auto;
+  }
+  #header h1 {
+    padding: 10px;
+    margin-botTom: 10px;
+    text-align: center;
+    background-color: #EFE1D4; /*QuickSilver*/
+    font-size: 40px;
+  }
+  
+  #weaponCache {
+    text-align: left;
+    max-width: 25%;
+    float: left;
+    background-color: #EFE1D4; /*QuickSilver*/
+    padding: 10px;
+  }
+  
+  #loadout {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 25%;
+  }
+  
+  #score {
+    position: relative;
+    display: inline;
+    padding: 30px;
+    text-align: left;
+    max-width: 25%;
+    background-color: #EFE1D4; /*QuickSilver*/
+    color: black;
+  }
